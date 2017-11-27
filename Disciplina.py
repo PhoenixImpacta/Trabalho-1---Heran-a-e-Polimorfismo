@@ -12,7 +12,7 @@ class Disciplina():
         self._bibliografia_complementar = bibliografia_complementar
 
     def set_nome(self, nome):
-        if nome.length > 0:
+        if len(nome) > 0:
             self._nome = nome
             return True
         else:
@@ -43,7 +43,7 @@ class Disciplina():
         return self._pratica
 
     def set_ementa(self, ementa):
-        if ementa.length > 0:
+        if len(ementa) > 0:
             self._ementa = ementa
             return True
         else:
@@ -54,7 +54,7 @@ class Disciplina():
         return self._ementa
 
     def set_competencias(self, competencias):
-        if competencias.length > 0:
+        if len(competencias) > 0:
             self._competencias = competencias
             return True
         else:
@@ -65,7 +65,7 @@ class Disciplina():
         return self._competencias
 
     def set_habilidades(self, habilidades):
-        if habilidades.length > 0:
+        if len(habilidades) > 0:
             self._habilidades = habilidades
             return True
         else:
@@ -76,7 +76,7 @@ class Disciplina():
         return self._habilidades
 
     def set_conteudo(self, conteudo):
-        if conteudo.length > 0:
+        if len(conteudo) > 0:
             self._conteudo = conteudo
             return True
         else:
@@ -87,7 +87,7 @@ class Disciplina():
         return self._conteudo
 
     def set_bibliografia_basica(self, bibliografia_basica):
-        if bibliografia_basica.length > 0:
+        if len(bibliografia_basica) > 0:
             self._bibliografia_basica = bibliografia_basica
             return True
         else:
@@ -98,7 +98,7 @@ class Disciplina():
         return self._bibliografia_basica
 
     def set_bibliografia_complementar(self, bibliografia_complementar):
-        if bibliografia_complementar.length > 0:
+        if len(bibliografia_complementar) > 0:
             self._bibliografia_complementar = bibliografia_complementar
             return True
         else:

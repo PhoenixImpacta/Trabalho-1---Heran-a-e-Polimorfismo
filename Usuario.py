@@ -4,7 +4,7 @@ class Usuario():
         self._senha = senha
 
     def setRa(self, ra):
-        if ra.length > 0:
+        if len(ra) > 0:
             self._ra = ra
             return True
         else:
@@ -15,7 +15,7 @@ class Usuario():
         return self._ra
 
     def setSenha(self, senha):
-        if senha.length > 0:
+        if len(senha) > 0:
             self._senha = senha
             return True
         else:

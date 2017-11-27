@@ -5,7 +5,7 @@ class Pessoa():
         self._celular = celular
 
     def setNome(self, nome):
-        if nome.length > 0:
+        if len(nome) > 0:
             self._nome = nome
             return True
         else:
@@ -15,7 +15,7 @@ class Pessoa():
         return self._nome
 
     def setEmail(self, email):
-        if email.length > 0:
+        if len(email) > 0:
             self._email = email
             return True
         else:
@@ -26,7 +26,7 @@ class Pessoa():
         return self._email
 
     def setCelular(self, celular):
-        if celular.length > 0:
+        if len(celular) > 0:
             self._celular = celular
             return True
         else:
